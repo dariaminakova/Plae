@@ -1,0 +1,48 @@
+.img-charlie{
+    background-image: url('../img/Emme_Pink_Scooter.png');
+    background-size: 100%;
+    background-position: center center;
+}
+
+.img-edie{
+    background-image: url('../img/edie_wet_shoes.png');
+    background-size: 100%;
+    background-position: center center;
+}
+
+.feedback{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    width: 33%;
+    text-align: center;
+    position: relative;
+}
+
+.customer-name{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.9px;
+    margin-top: 100px;
+}
+
+.quotes{
+    position: absolute;
+    color: #dcdcdc;
+    font-family: 'Nunito', sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 38.4px;
+}
+
+.left-quotes{
+    left: -16%;
+    top: -7%;
+}
+
+.right-quotes{
+    right: -15%;
+    bottom: -28%;
+}

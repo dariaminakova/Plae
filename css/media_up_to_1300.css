@@ -1,0 +1,48 @@
+@media screen and (max-width: 1380px) {
+    .why-plae{
+        display: none;
+    }
+    .why-media{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+
+    .img-charlie{
+        background-size: 150%;
+    }
+    
+    .img-edie{
+        background-size: 140%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    h3{
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 35.4px;
+    }
+
+/* about */
+
+    .about-plae{
+        font-size: 15px;
+        line-height:18px;
+    }
+
+/* customers */
+
+    .feedback{
+        font-size: 17px;
+        line-height: 27px;
+        width: 65%;
+    }
+
+    .quotes{
+        display: none;
+    }
+    
+}

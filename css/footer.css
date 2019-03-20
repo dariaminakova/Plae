@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: #f3f3f3;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content > p{
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 22px;
+    margin-top: 18px;
+}
+
+.copy-rigth{
+    height: auto;
+    background-color: #dcdcdc;
+    color: #ffffff;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.35px;
+    padding: 14px 0 12px 37px;
+}

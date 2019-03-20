@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Yantramanav');
+
+/* Main content */
+
+h3{
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 38.4px;
+}
+
+.collum-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtitle{
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.09px;
+    line-height: 40px;
+}
+
+.content-container{
+    position: relative;
+    height: 800px;
+}
+
+.text-box {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(252, 251, 251);
+    position: absolute;
+    top:0;
+    z-index: 200;
+}
+
+.about-plae{
+    color: #000000;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    width: 50%;
+}
+
+.text-box > h3{
+    margin-bottom: 100px;
+}
+
+.text-box-left{
+    left: 0;
+}
+
+.text-box-right{
+    right: 0;
+}
+
+.img-box {
+    position: absolute;
+    top:0;
+    z-index: 100;
+    height: 800px;
+    width: 50%;
+}
+
+.img-box-right {
+    right: 0;
+}
+
+.img-box-left {
+    left: 0;
+}
+
+.img-about{
+    background-image: url('../img/Max_Black_Push_Bike.jpg');
+    background-position: center center;
+}
+
+/* Main content */
+
+/* Form style */
+form{
+    height: 47px;
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+
+input{
+    border-radius: 22px 0 0 22px;
+    border: none;
+    background-color: #ffffff;
+    width: 333px;
+    height: 45px;
+    color: #8c8c8c;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18.08px;
+    letter-spacing: 0.5px;
+    padding-left: 29px;
+    outline: none;
+}
+
+input:focus{
+    color: #1b1b1b;
+}
+
+.input-btn{
+    width: 167px;
+    height: 47px;
+    border: none;
+    border-radius: 0 22px 22px 0;
+    background-color: #20ab50;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18.08px;
+    letter-spacing: 0.55px;
+}
+
+.input-btn:hover {
+    background-color: #4cd87d;
+    color: #666666;
+}
+
+/* Form style */
