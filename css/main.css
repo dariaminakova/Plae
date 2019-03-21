@@ -12,6 +12,10 @@ h3{
 
 .collum-container{
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -97,6 +101,10 @@ h3{
 form{
     height: 47px;
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     align-items: center;
     margin-top: 52px;
 }

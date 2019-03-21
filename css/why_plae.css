@@ -71,6 +71,10 @@
     height: 620px;
     top: 23%;
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;

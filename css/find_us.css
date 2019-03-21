@@ -28,6 +28,10 @@ h4{
 
 .contact-box{
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -39,6 +43,10 @@ h4{
 
 .contact-item{
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
